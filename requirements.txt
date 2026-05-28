@@ -1,0 +1,15 @@
+# =============================================================================
+# Hybrid Movie Recommender — Dependencies (Python 3.14 compatible)
+# =============================================================================
+# Install with: pip install -r requirements.txt
+# =============================================================================
+
+fastapi>=0.115.0
+uvicorn>=0.32.0
+sentence-transformers>=3.4.0
+chromadb>=0.6.0
+networkx>=3.4
+requests>=2.32.0
+python-dotenv>=1.0.0
+pydantic>=2.10.0
+numpy>=2.2.0

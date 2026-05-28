@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatToWatchNext - Hybrid Movie Recommender</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>WhatToWatchNext</h1>
+            <p>AI-Powered Hybrid Movie Recommendations</p>
+        </header>
+
+        <main>
+            <div class="search-section">
+                <div class="search-container">
+                    <form id="search-form" class="search-box">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" id="search-input" placeholder="Enter a movie title you love..." autocomplete="off">
+                        <button type="submit" id="search-btn">Recommend</button>
+                    </form>
+                    <div id="autocomplete-list" class="autocomplete-list hidden"></div>
+                </div>
+                <div id="loading-spinner" class="spinner hidden"></div>
+                <div id="error-message" class="error hidden"></div>
+            </div>
+
+            <div id="results-container" class="results-container hidden">
+                <div class="seed-movie-info" id="seed-movie-info">
+                    <!-- Seed movie info will go here -->
+                </div>
+                
+                <h3 class="recommendations-title">Top Recommendations</h3>
+                <div class="movies-grid" id="movies-grid">
+                    <!-- Movie cards will go here -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
