@@ -66,7 +66,7 @@ python setup.py
 
 This fetches ~1,000 movies from TMDB, embeds their synopses, and builds the knowledge graph.
 
-**⏱ Estimated Runtime:** 25–40 minutes for 1,000 movies (dominated by TMDB API rate limits at ~40 requests per 10 seconds). The setup is **idempotent** — if interrupted, re-run to continue from where it left off.
+** Estimated Runtime:** 10-20 minutes for 1,000 movies (dominated by TMDB API rate limits at ~40 requests per 10 seconds). The setup is **idempotent** — if interrupted, re-run to continue from where it left off.
 
 ### 5. Start the API
 
