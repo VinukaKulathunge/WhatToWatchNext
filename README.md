@@ -1,4 +1,4 @@
-# 🎬 Hybrid Movie Recommender System
+#  Hybrid Movie Recommender System
 
 A modular, resource-efficient **Hybrid Movie Recommender** that combines **Semantic Vector Search** (for conceptual similarity) with a **Knowledge Graph** (for factual links like shared Directors and Actors), wrapped in a structured **Explainability (XAI) layer**. 
 
